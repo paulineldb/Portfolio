@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Portfolio - Pauline Lelievre Du Broeuille</title>
+        <!-- STYLESHEET AND FONT -->
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <header>
+            <!-- LOGO -->
+            <div class="logo">
+                <img id="logo-image" src="./Images/Logo.png" alt="website logo" />
+            </div>
+            <!-- NAVIGATION -->
+            <div class="nav">
+                <ul class="nav-links">
+                    <li><a href="#about-background">About</a></li>
+                    <li><a href="#projects-background">Projects</a></li>
+                    <li><a href="#contact-background">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <!-- ABOUT -->
+            <div class="about-background" id="about-background">
+                <h1>Front-End Developer</h1>
+                <div class="about">
+                    <img id="avatar-image" src="./Images/Avatar.png" alt="avatar"/>
+                    <div class="about-text">
+                        <h4>Hi! My name is Pauline. I design and code some cool things.</h4>
+                        <p>Since childhood, I have been battling between my creative and logical sides. I started playing around with HTML and CSS as a teenager, forgetting about it for a few years as I became a teacher. But I quickly realised I was missing the challenge of code and decided to dive back in, extend my skill set and become a Web Developer! </p>
+                        <p>I am passionate about clean and impactful design, efficient code, and always longing to learn more <span class="crossed-out">(might explain the long list of hobbies I have picked up over the years)</span>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECTS / THE COOL THINGS-->
+            <div class="projects-background" id="projects-background">
+                <div class="projects-content">
+                    <div class="ellipse-shape"></div>
+                    <div class="projects">
+                        <h2>The cool things</h2>
+                        <!-- PROJECT 1-->
+                        <div class="project-card">
+                            <div class="project-text">
+                                <h3>The Onyx Isle</h3>
+                                <p>The very first website I created during my Bootcamp using HTML, CSS and JavaScript, as well as my first responsive project!</p>
+                                <p>It allowed me to get to grips with those languages while creating something fun I could share with my Dungeons & Dragons group!</p>
+                            </div>
+                            <div class="project-images">
+                                <div class="desktop-preview">
+                                    <img src="./Images/desktope-placeholder.png"/>
+                                </div>
+                                <div class="mobile-preview">
+                                    <img src="./Images/mobile-placeholder.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PROJECT 2-->
+                        <div class="project-card">
+                            <div class="project-text">
+                                <h3>Elevate | Urban Streetwear</h3>
+                                <p>Another Bootcamp project. And the beginning of my exploration of ReactJS. </p>
+                                <p>This simple and punchy UI was created for a fictitious fashion brand, it displays a selection of items in the shop and even lets the user use an interest calculator to budget-plan!</p>
+                            </div>
+                            <div class="project-images">
+                                <div class="desktop-preview">
+                                    <img src="./Images/desktope-placeholder.png"/>
+                                </div>
+                                <div class="mobile-preview">
+                                    <img src="./Images/mobile-placeholder.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PROJECT 3-->
+                        <div class="project-card">
+                            <div class="project-text">
+                                <h3>Hangman Game</h3>
+                                <p>Guess what...? Another Bootcamp project! This one was pretty fun to create using my CSS, HTML and JavaScript skills in combination with ReactJS.</p>
+                                <p>A simple application that can easily be altered to fit different designs or themes (including the bank of words to guess!)</p>
+                            </div>
+                            <div class="project-images">
+                                <div class="desktop-preview">
+                                    <img src="./Images/desktope-placeholder.png"/>
+                                </div>
+                                <div class="mobile-preview">
+                                    <img src="./Images/mobile-placeholder.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SEE MORE BUTTON -->
+                    <!-- <button class="button button-secondary">SEE MORE</button> -->
+                </div>
+            </div>
+
+            <!-- CONTACT / LET'S GET IN TOUCH -->
+            <div class="contact-background" id="contact-background">
+                <div class="contact">
+                    <!-- CONTACT-LEFT -->
+                    <div class="contact-left">
+                        <h2>Let's get in touch</h2>
+                        <div class="contact-icons">
+                            <div class="icon">
+                                <a href="https://github.com/paulineldb" target="_blank"><img src="./Images/github.png" alt="Github Logo"/></a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/pauline-leli%C3%A8vre-du-broeuille-83a498254/" target="_blank"><img src="./Images/linkedin.png" alt="LinkedIn Logo" id="linkedin-logo"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CONTACT-RIGHT -->
+                    <div class="contact-right">
+                        <div id="contact-form">
+                            <!-- FORM -->
+                            <form action="https://formsubmit.co/pauline.ldb@gmail.com" method="post">
+                                <h4>Name:</h4>
+                                <input type="text" name="name">
+                                <h4>Email:</h4>
+                                <input type="text" name="mail">
+                                <h4>Your message:</h4>
+                                <input type="text" name="message" id="message-input"><br>
+                                <input type="submit" value="Send" class="button button-primary">
+                                <input type="reset" value="Reset" class="button button-primary">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="footer-text">
+                    <p><a href="#">Back to the top</a> - <a href="#projects-background">Projects</a> - ©2023 Pauline Lelievre Du Broeuille</p>
+                    <p><span>Icons: Flaticon.com - Pixel perfect (Github), Bogdan Rosu (LinkedIn)</span></p> 
+                </div>
+            </footer>
+
+        </main>
+    </body>
+</html>
