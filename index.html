@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title> Portfolio - Pauline Lelievre Du Broeuille</title>
         <!-- STYLESHEET AND FONT -->
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
@@ -122,11 +122,12 @@
                             <!-- FORM -->
                             <form action="https://formsubmit.co/pauline.ldb@gmail.com" method="post">
                                 <h4>Name:</h4>
-                                <input type="text" name="name">
+                                <input type="text" name="name" required>
                                 <h4>Email:</h4>
-                                <input type="text" name="mail">
+                                <input type="text" name="mail" required>
                                 <h4>Your message:</h4>
-                                <input type="text" name="message" id="message-input"><br>
+                                <input type="text" name="message" id="message-input" required><br>
+                                <input type="hidden" name="_next" value="https://paulineldb.github.io/Portfolio/thankyou.html">
                                 <input type="submit" value="Send" class="button button-primary">
                                 <input type="reset" value="Reset" class="button button-primary">
                             </form>

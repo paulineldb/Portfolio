@@ -1,0 +1,44 @@
+body {
+    background-color: #943543;
+    text-align: center;
+    margin-top: 15%;
+}
+
+h1 {
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    color: #FFFDF8;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #FFBD59CC;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    color: #FFFDF8;
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;  
+    margin-bottom: 10px;
+    color: #FFFDF8;
+}
+
+a {
+    text-decoration: none;
+    color: #FFBD59CC;
+}
+
+a:hover {
+    text-shadow: 2px 2px #1E1E1E;
+}
+
+a:active {
+    text-shadow: none;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
